@@ -7,27 +7,27 @@ body:
     id: doc_title
     attributes:
       label: Document Title
-      placeholder: e.g., SOP-001: Cleaning Procedure
+      placeholder: "e.g., SOP-001: Cleaning Procedure"
   - type: input
     id: author
     attributes:
       label: Author
-      placeholder: Your full name
+      placeholder: "Your full name"
   - type: input
     id: department
     attributes:
       label: Department
-      placeholder: e.g., QA, Compliance, Manufacturing
+      placeholder: "e.g., QA, Compliance, Manufacturing"
   - type: textarea
     id: summary
     attributes:
       label: Summary of Changes / Purpose
-      placeholder: What is this document for? What changed?
+      placeholder: "What is this document for? What changed?"
   - type: input
     id: file_path
     attributes:
       label: File Location
-      placeholder: drafts/SOP-001.docx
+      placeholder: "drafts/SOP-001.docx"
   - type: markdown
     attributes:
       value: |
