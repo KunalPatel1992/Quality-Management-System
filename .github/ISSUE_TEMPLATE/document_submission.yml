@@ -1,0 +1,41 @@
+name: Document Submission
+description: Submit a new SOP, CAPA, or quality document for approval
+title: "[DOC SUBMISSION] - <Document Title>"
+labels: ["pending-approval"]
+body:
+  - type: input
+    id: doc_title
+    attributes:
+      label: Document Title
+      placeholder: e.g., SOP-001: Cleaning Procedure
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      placeholder: Your full name
+  - type: input
+    id: department
+    attributes:
+      label: Department
+      placeholder: e.g., QA, Compliance, Manufacturing
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary of Changes / Purpose
+      placeholder: What is this document for? What changed?
+  - type: input
+    id: file_path
+    attributes:
+      label: File Location
+      placeholder: drafts/SOP-001.docx
+  - type: markdown
+    attributes:
+      value: |
+        ## ✅ Approval Checklist  
+        Please tag reviewers below:
+
+        - [ ] QA Manager - @qa-manager  
+        - [ ] Department Lead - @dept-head  
+        - [ ] Compliance Officer - @reg-officer 
+
+        Ensure all sections are complete before submitting.
